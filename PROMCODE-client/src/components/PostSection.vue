@@ -31,8 +31,9 @@ export default {
         console.log("breakpoint2")
         const params = new FormData()
         params.append("file", this.postData)
+        const serverUrl = process.env.VUE_APP_SERVER_URL || "http://localhost:3000";
         axios.post(
-          "http://localhost:3000",
+          serverUrl,
           params,
           {
             headers: {
