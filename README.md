@@ -1,5 +1,8 @@
 # PROMCODE
 
+> [!NOTE]
+> This README was generated with LLM assistance.
+
 A full-stack application for uploading and processing Turtle (RDF) files with Neo4j integration.
 
 ## Project Structure
